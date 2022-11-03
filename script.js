@@ -11,7 +11,7 @@ function fetchPokemon(id){
 
 function fetchPokemons(number){
     for(let i=1; i<=number; i++){
-        const number = Math.floor(Math.random() * 690);
+        const number = Math.floor(Math.random() * 905);
         fetchPokemon(number);
     }
 }
